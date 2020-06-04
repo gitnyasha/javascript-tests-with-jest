@@ -6,7 +6,7 @@ const cipher = (string) => string.replace(/([a-z])/gi, (char) => {
     charNumber = 65;
   } else {
     charNumber += 1;
-  };
+  }
   return String.fromCharCode(charNumber);
 });
 module.exports = cipher;
