@@ -11,13 +11,6 @@
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-Download the project
-
-    $ git clone https://github.com/gitnyasha/javascript-tests-with-jest.git
-
-
 ## Authors
 
 👤 **Ko Nyan**
