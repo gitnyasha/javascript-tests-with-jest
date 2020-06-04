@@ -7,7 +7,7 @@ describe('cipher', () => {
   it('returns a ciphered text', () => {
     expect(cipher('Book')).toBe('Cppl');
   });
-  it(`doesn't encrypt puctionation like ' and .`, () => {
+  it('doesn\'t encrypt punctuation like \' and .', () => {
     expect(cipher('Don\'t be a hero')).toBe('Epo\'u cf b ifsp');
   });
 });
